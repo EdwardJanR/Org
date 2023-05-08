@@ -22,6 +22,14 @@ function App() {
     {
       id: uuidv4(),
       equipo: "Programación",
+      foto: "https://i.pinimg.com/736x/f1/20/c3/f120c3c743bd076ef9b8716329803231.jpg",
+      nombre: "Genesys Rondón",
+      puesto: "Desarrolladora de software e instructora",
+      fav: true
+    },
+    {
+      id: uuidv4(),
+      equipo: "Programación",
       foto: "https://github.com/genesysaluralatam.png",
       nombre: "Genesys Rondón",
       puesto: "Desarrolladora de software e instructora",
