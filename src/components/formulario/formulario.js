@@ -14,7 +14,7 @@ const Formulario = (props) => {
     const [equipo, setEquipo] = useState("");
 
     const [titulo, setTitulo] = useState("")
-    const [color, setColor] = useState("");
+    const [color, setColor] = useState("#6278F7");
 
     const crearColaborador = (e) => {
         e.preventDefault();
@@ -79,7 +79,7 @@ const Formulario = (props) => {
             />
             <FormTexto
                 tLabel="FColor"
-                tInput=" Ingrese color de fondo en hexadecimal"
+                value="#ff0000"
                 required
                 valor={color}
                 setValor={setColor}

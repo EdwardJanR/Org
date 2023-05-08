@@ -18,7 +18,6 @@ const Equipo = (props) => {
                 onClick={actualizarFondo}
                 onChange={(evento) => {
                     actualizarFondo(evento.target.value, id);
-
                 }
                 }
             />
