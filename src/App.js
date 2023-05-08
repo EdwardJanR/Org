@@ -21,10 +21,10 @@ function App() {
     },
     {
       id: uuidv4(),
-      equipo: "Programación",
+      equipo: "Back Office Audi",
       foto: "https://i.pinimg.com/736x/f1/20/c3/f120c3c743bd076ef9b8716329803231.jpg",
-      nombre: "Genesys Rondón",
-      puesto: "Desarrolladora de software e instructora",
+      nombre: "La cosis",
+      puesto: "Gestion documental y asesoria",
       fav: true
     },
     {
@@ -102,6 +102,12 @@ function App() {
       {
         id: uuidv4(),
         titulo: "Innovación y Gestión",
+        colorPrimario: "#FF8A29",
+        colorSecundario: "#FFEEDF"
+      },
+      {
+        id: uuidv4(),
+        titulo: "Back Office Audi",
         colorPrimario: "#FF8A29",
         colorSecundario: "#FFEEDF"
       }
